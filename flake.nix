@@ -43,7 +43,7 @@
                     enable = true;
                     venv.enable = true;
                     venv.requirements = ''
-                      django=4.2.1
+                      django==4.2.1
                     '';
                   };
                 }
