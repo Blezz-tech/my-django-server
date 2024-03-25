@@ -42,9 +42,9 @@
                   languages.python = {
                     enable = true;
                     venv.enable = true;
-                    venv.requirements = ''
-                      django==4.2.1
-                    '';
+                    # venv.requirements = ''
+                    #   django==4.2.1
+                    # '';
                   };
                 }
               ];
