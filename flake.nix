@@ -30,21 +30,10 @@
               inherit inputs pkgs;
               modules = [
                 {
-                  # # https://devenv.sh/reference/options/
-                  # packages = [ pkgs.hello ];
-
-                  # enterShell = ''
-                  #   hello
-                  # '';
-
-                  # processes.run.exec = "hello";
-
+                  # https://devenv.sh/reference/options/
                   languages.python = {
                     enable = true;
                     venv.enable = true;
-                    # venv.requirements = ''
-                    #   django==4.2.1
-                    # '';
                   };
                 }
               ];
